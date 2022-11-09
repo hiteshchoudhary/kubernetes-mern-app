@@ -1,9 +1,11 @@
 # commands that are used in this video.
 
+```
 brew install kubectl
 brew install minikube
-
+```
 ++++++++++++++++++++++++++++++++++++++
+```
 minikube start
 kubectl get pod
 kubectl apply -f mongo-config.yaml
@@ -16,9 +18,15 @@ kubectl get secret
 kubectl get svc
 minikube ip
 kubectl get node -o wide
+```
 
+```
 minikube service webapp-service
-
+```
 ++++++++++++++++++++++++++++++++++++++
+```
 kubectl delete deployment --all
+```
+```
 kubectl delete secret --all
+```
